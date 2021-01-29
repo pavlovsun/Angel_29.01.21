@@ -1,0 +1,39 @@
+*{
+    background-color: #09100D;
+}
+/* SHOP */
+.shop-tab{
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 350px);
+}
+.shop-tab div{
+    align-items: center;
+    display: grid;
+}
+
+#Estel img, #Kapous img, #Wella img, #L’Oréal img, #Nouvelle img, #Constant_Delight img, #Epica img{
+    margin: 39%;
+    width: 70%;
+}
+#html1, #html2, #html3, #html4 ,#html5, #html6{
+    display: grid;
+    justify-content: center;
+}
+#Kapous-img{
+    display: grid;
+    align-items: end;
+    grid-template-columns: repeat(auto-fit,300px);
+    text-align: center;
+    margin: 5.5%;
+    vertical-align: bottom;
+}
+#Kapous-img a{
+    display: table-cell;
+    margin: 0 0 10% 0;
+    vertical-align: bottom;
+}
+.qwerty{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,300px);
+}
